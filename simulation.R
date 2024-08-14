@@ -7,7 +7,7 @@ source("~/thesis/auxiliary_functions.R")
 #classes_list <- classes_20[1:5]
 classes_list <- classes_20[1:7]
 
-### errors below
+### lists below get errors
 #classes_list <- classes_20[1:15]
 #classes_list <- classes_20
 
@@ -50,4 +50,4 @@ run_simulation <- function(simulations = 1) {
   print(misc_rate)
 }
 
-run_simulation(3)
+run_simulation(10)

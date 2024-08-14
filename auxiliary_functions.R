@@ -66,7 +66,7 @@ combine_x_data <- function(data_list) {
 }
 
 create_y_labels <- function(n_classes, n) {
-  return(factor(rep(1:num_classes, rep(n, n_classes))))
+  return(factor(rep(1:n_classes, rep(n, n_classes))))
 }
 
 #########################################
